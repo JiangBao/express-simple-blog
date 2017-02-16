@@ -1,0 +1,12 @@
+<%- include header %>
+
+<% if(user) { %>
+    <div style="color: blue">
+        <h1>welcome---:  <%= user.userName%></h1>
+        <p>now you are login!!!</p>
+    </div>
+<% } else { %>
+    <div>this is the index page</div>
+<% } %>
+
+<%- include footer %>
